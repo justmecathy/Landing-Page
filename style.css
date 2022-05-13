@@ -1,0 +1,27 @@
+/* Header styling */
+.header {
+    background: darkcyan;
+    border-bottom: 1px solid #ddd;
+    box-shadow: 0 0 8px rgba(0,0,0,.1);
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+  }
+  a {
+    text-decoration: none;
+  }
+  .logo {
+    color: rebeccapurple;
+    font-size: 32px;
+    font-weight: 900;
+    font-style: italic;
+  }
+  ul {
+    color: #e5e7eb;
+    font-size: 18px;
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 16px;
+  }
