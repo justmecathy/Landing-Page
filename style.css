@@ -10,9 +10,19 @@
     padding-right: 100px;
     padding-top: 10px;
   }
+  .headhead {
+display: flex;
+flex-direction: row;
+justify-content: space-between;
 
+  }
   a {
     text-decoration: none;
+    color: #e5e7eb
+  }
+  ul {
+    list-style: none;
+    color: ;
   }
   .logo {
     color: #f9faf8;
@@ -39,3 +49,7 @@
       color:#f9faf8;
       display: flex;
   }
+.pic {
+  color: #f9faf8;
+  background-color: #ddd;
+}
