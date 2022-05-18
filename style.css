@@ -12,7 +12,7 @@ body {
 /* Shared between some sections */
 
 .first,
-.sectionCenter {
+.second {
   max-width: 1444px;
 }
 
@@ -101,3 +101,35 @@ img {
 } 
 
 /* Second Section */
+.second {
+max-height: fit-content;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  margin: 40px;
+  gap: 52px;
+}
+
+img {
+  width: 220px;
+  height: 300px;
+}
+
+.title {
+  color:#b868bcaa;
+  text-align: center;
+  font-size: 36px;
+  font-weight: 900;
+  margin-top: 35px;
+  margin-bottom: 32px;
+}
+.text {
+  font-weight: 500;
+color: #acafb5
+}
+.info {
+max-width: 250px;
+}
