@@ -11,15 +11,10 @@ body {
 
 /* Shared between some sections */
 
-.first,
-.second {
-  max-width: 1444px;
-}
-
 
 /* First section - Header / Hero */
 .wrapper {
-    background: #b868bcaa;
+    background: plum;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -69,7 +64,7 @@ body {
 }
   .firstheader {
     color: #f9faf8;
-    font-size: 48px;
+    font-size: 50px;
     font-weight: 900px;   
   }
   .subheader {
@@ -77,9 +72,9 @@ body {
     color: #E5E7EB;
     display: block;
   }
-  button {
-    background-color:#3882F6;
-    border-color:#3882F6;
+  .signup {
+    background-color: purple;
+    border-color: purple;
     border-radius: 10px;
     color:#F9FAF8;
     padding:0;
@@ -135,7 +130,7 @@ max-width: 250px;
 }
 /* Thrid section + Quote */
 .quote {
-  background-color: #acafb5;
+  background-color: plum;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -143,7 +138,7 @@ max-width: 250px;
   padding: 30px;
 }
 p {
-  color: rgb(38, 35, 35);
+  color: white;
   font-size: 36px;
   font-style: italic;
   font-weight: 200;
@@ -152,4 +147,60 @@ p {
 .author {
   color: black;
   display: flex;
+}
+
+/* fourth + Calltoaction */
+.box {
+  background-color: palevioletred;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  border-radius: 5px;
+  padding: 50px;
+  margin: 110px;
+  margin-left: 15%;
+  margin-right: 15%;
+  gap: 52px
+}
+
+.headeraction {
+  color: #F9FAF8;
+  font-size: large;
+  font-weight: 600;
+  text-align: left;
+}
+.actiontext {
+  color: #f9faf8;
+  font-size: medium;
+  font-weight: 300;
+  text-align: left;
+}
+.callaction {
+  background-color: purple;
+  border-color: purple;
+  border-radius: 10px;
+  color: white;
+  padding:0;
+  width:100px;
+  height:30px;
+}
+.callaction:hover {
+  cursor: pointer;
+  background-color: pink;
+  color: white;
+  border: 2px solid;
+}
+.signup:hover {
+  cursor: pointer;
+  background-color: pink;
+  color: white;
+  border: 2px solid;
+}
+/* footer */
+.footer {
+background-color: plum;
+color: white;
+text-align: center;
+padding: 25px;
 }
